@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_avater"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:src="@mipmap/avatar7" />
+
+    <TextView
+        android:textSize="19sp"
+        android:layout_toRightOf="@id/iv_avater"
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="123"
+        android:textAllCaps="false" />
+    <TextView
+        android:textSize="19sp"
+        android:layout_below="@id/tv_username"
+        android:layout_toRightOf="@id/iv_avater"
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="时间"
+        android:textAllCaps="false" />
+    <Button
+        android:text="添加"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textAllCaps="false"
+        android:id="@+id/btn_add_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
